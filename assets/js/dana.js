@@ -11,9 +11,9 @@ let isMobileDevice = regexp.test(details);
 if (isMobileDevice) { 
     document.head.insertAdjacentHTML(
         'beforeend',
-        '<link rel="stylesheet" href="StyleMobile.css" />'); 
+        '<link rel="stylesheet" href="assets/css/StyleMobile.css" />'); 
 } else { 
     document.head.insertAdjacentHTML(
         'beforeend',
-        '<link rel="stylesheet" href="StyleDesktop.css" />'); 
+        '<link rel="stylesheet" href="assets/css/StyleDesktop.css" />'); 
 }
