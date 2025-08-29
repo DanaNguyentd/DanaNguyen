@@ -13548,6 +13548,20 @@ small,.small {
     border: 8px solid #1e2738
 }
 
+/* Zoomed state */
+.project-detail-pic.zoomed {
+  max-width: none;          /* Removes max-width restriction */
+  width: auto;              /* Show full original width */
+  max-height: 90vh;         /* Optional: limit height to 90% viewport height */
+}
+
+.project-detail-pic {
+    max-width: 160px;
+    border: 8px solid #1e2738;
+    display: block;       /* Make it behave like a block element */
+    margin: 0 auto;       /* This centers the block horizontally */
+}
+
 .resume-name {
     letter-spacing: .5rem;
     font-size: 2.25rem;
