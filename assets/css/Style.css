@@ -13411,18 +13411,10 @@ textarea.form-control-lg {
     }
 }
 
-/*!  
- * Risen - Bootstrap 5 Resume Template For Developers
- * Version: 2.1
- * Author: Xiaoying Riley
- * Copyright: 3rd Wave Media Ltd.
- * Website: http://themes.3rdwavemedia.com/
- * Twitter: @3rdwave_themes
-*/
 body {
-    color: #a5b3ce;
-    background: #19202e;
-    font-family: "Inter",sans-serif
+    color: #678cd3;
+    background: #212169;
+    font-family: "IBM Plex Sans",sans-serif
 }
 
 h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
@@ -13535,7 +13527,7 @@ small,.small {
     margin-top: 90px;
     position: relative;
     padding-top: calc(75px + 1rem);
-    background: #1e2738
+    background: #060910
 }
 
 .resume-profile-pic {
@@ -13802,8 +13794,4 @@ small,.small {
     .resume-wrapper {
         max-width:980px
     }
-}
-
-html {
-  scroll-behavior: smooth;
 }
